@@ -1,23 +1,9 @@
-#include <memory>
 #include <iostream>
 #include <vector>
 
+#include "common.h"
+
 using namespace std;
-
-template <class T>
-struct LinkedListNode;
-
-template <class T>
-using NodePtr = shared_ptr<LinkedListNode<T>>;
-
-template <class T>
-struct LinkedListNode {
-  LinkedListNode(T _data) : data(_data) {};
-
-  T data;
-  NodePtr<T> next;
-  NodePtr<T> prev;
-};
 
 template <class T>
 class LinkedList {
