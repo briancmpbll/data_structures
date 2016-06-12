@@ -10,7 +10,7 @@ class LinkedList {
 public:
   LinkedList() : _size(0) {}
 
-  int size()  const {
+  int size() const {
     return _size;
   }
 
