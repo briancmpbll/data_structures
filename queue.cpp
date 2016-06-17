@@ -88,7 +88,7 @@ int main(int argc, char **argv) {
   try {
     queue.peek();
   }
-  catch (string e) {
+  catch (const string &e) {
     cout << e << endl;
   }
 

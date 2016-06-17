@@ -61,7 +61,7 @@ int main(int argc, char **argv) {
   try {
     stack.peek();
   }
-  catch (string e) {
+  catch (const string &e) {
     cout << e << endl;
   }
 

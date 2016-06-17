@@ -185,14 +185,14 @@ int main(int argc, char **argv) {
   try {
     list.front();
   }
-  catch (string e) {
+  catch (const string &e) {
     cout << e << endl;
   }
 
   try {
     list.back();
   }
-  catch (string e) {
+  catch (const string &e) {
     cout << e << endl;
   }
 
