@@ -6,3 +6,4 @@ all:
 	$(CC) $(CFLAGS) stack.cpp -o bin/stack
 	$(CC) $(CFLAGS) queue.cpp -o bin/queue
 	$(CC) $(CFLAGS) trie.cpp -o bin/trie
+	$(CC) $(CFLAGS) heap.cpp -o bin/heap
